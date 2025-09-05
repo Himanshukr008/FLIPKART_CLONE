@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.13);
+    /* width: 100%; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.maincontent {
+    margin: auto;
+    padding: 0;
+    height: auto;
+    width: 100%; /* avoid making the page wider than the viewport */
+    box-sizing: border-box;
+}
+
+header {
+    /* width:100%;  */
+    padding: 2px 28px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 100;
+}
+
+span {
+    position: relative;
+    bottom: 5px;
+    padding: 3px;
+}
+
+.left {
+    display: flex;
+}
+.login {
+    margin: 10px 40px;
+}
+
+.cart {
+    margin: 10px 40px;
+}
+
+.seller {
+    margin: 10px 40px;
+}
+
+input {
+    margin: 3px;
+    padding: 3px;
+    width: 50vw;
+    height: 30px;
+    border: 2px #0095ff14;
+    border-radius: 5px;
+    background-color: #0095ff24;
+    position: relative;
+    bottom: 5px;
+
+}
+
+.box1 {
+    height: 175px;
+    /* width: 100%; */
+    margin: 10px 10px 10px 10px;
+    /* padding: 5px; */
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; allow items to wrap instead of forcing horizontal overflow */
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+    box-sizing: border-box;
+}
+@media (max-width:390px) {
+    .box1{
+        /* display: flex; */
+        flex-direction: column;
+        position: relative;
+        z-index: 10;
+        justify-content: center;
+        align-content: center;
+    }  
+    .header{
+        width: 100%;
+    }  
+}
+.i img:hover{
+    transform: scale(1.2);
+}
+
+.i img {
+    height: 64px;
+    width: 64px;
+    padding: 16px;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image {
+    width: 130px;
+    height: 126px;
+    /* padding: 16px 16px 16px 24px; */
+}
+.image span{
+    font-weight: 600;
+    padding: auto;
+}
+
+.hero {
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    /* overflow: scroll; */
+    overflow: hidden;
+    
+}
+@keyframes Himanshu{
+    0%{
+
+    }
+    100%{
+        /* transform: translateX(100%); */
+        transform:  translate(100%) ;
+    }
+}
+.hero img {
+    width: 100%;
+    margin: 10px 0px;
+    animation: Himanshu 3s ease-in 3 alternate-reverse;
+}
+.hero2{
+    display: flex;
+}
+.boe {
+    width: max-content;
+    margin: 5px 10px 5px 10px;
+    padding: 3px;
+    height: 348px;
+    background-color: #fff;
+    width: 83.5%;
+}
+.boe1 {
+    width: max-content;
+    margin: 5px 10px 5px 10px;
+    padding: 3px;
+    height: 348px;
+    background-color: #fff;
+    width: 98%;
+}
+
+.boes {
+    display: flex;
+    height: 250px;
+    margin: 2px 8px;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: center;
+}
+.imageboe img:hover{
+    transform: scale(1.1);
+}
+.imageboe{
+    margin: 10px;
+}
+.imageboe img {
+    height: 108px;
+    width: 108px;
+    object-fit:contain;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.imgboe {
+    margin: 10px;
+    padding: 20px;
+    height: 210px;
+    align-content: center;
+}
+.imgboe div{
+    text-align: center;
+    font-size: 17px;
+}
+.aeroplane{
+    object-fit: cover;
+    width:fit-content ;
+}
+.hero3{
+    margin: 5px;
+    padding: 3px;
+}
+.hero3 img {
+    width: 100%;
+    margin: 10px 0px;
+}
+.hero5{
+    margin: 10px;
+    padding: 3px;
+    width: 510px;
+    height: 675px;
+    background-color: white;
+    
+}
+.subhero{
+    /* height: 490px;
+    width: 582px; */
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 233px 233px;
+    grid-template-rows: 289px 289px;
+}
+.subimg{
+    object-fit: contain;
+}
+.subimg img{
+    border-radius: 7px;
+    height: 183px;
+    width: 183px;
+    transition: transform 1s ease ;
+}
+.subimg img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.sub1{
+    /* margin: 5px; */
+    padding: 20px;
+    height: max-content;
+    width: max-content;
+    border: 2px solid rgba(160, 156, 156, 0.534);
+    border-radius: 5px;
+}
+.sub1 span{
+    color: rgb(44, 164, 44);
+    font-weight: 600;
+    font-size: 18px;
+}
+.sub1 p{
+    margin: 5px 0px 5px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.hero5 .top{
+    margin-left: 27px;
+    margin-top: 38px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.arrow{
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.arrow img{
+    height: 13px;
+    width: 13px;
+}
+.gridall{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+
+}
+.top_directory{
+    margin: 60px 15px 15px 47px;
+}
+.item_1{
+    margin:15px 0px ;
+}
+.item_1 a{
+    color: rgba(20, 13, 13, 0.651);
+    text-decoration: none;
+}
+.flipkart_overview{
+    margin: 60px 15px 15px 47px;
+    color:rgba(51, 33, 33, 0.523) ;
+}
+.flipkart_overview h3{
+    margin: 17px 0px;
+}
+.fa-facebook {
+    color: rgb(19, 19, 19); 
+}
+.foot_er{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color:#212121;
+    font-size: 14px;
+    font-weight: 700;
+}
+.foot_er a:hover{
+     cursor: pointer;
+     text-decoration: underline;
+}
+.foot_er a{
+    color: white;
+    text-decoration: none;
+}
+.foot_er li{
+    list-style-type: none;
+}
+.foot_er h3{
+    color: grey;
+    margin: 10px 0px;
+}
+.vruler{
+    border: 1px solid grey;
+}
+.foot_er .mail_us i{
+    font-size: 25px;
+    padding: 0px 2px 0px 2px;
+}
+.hr{
+    border: 1px solid grey;
+}
+.lowerfoot{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: 600;
+    background-color:#212121 ;
+    align-content: center;
+}
+.lowerfoot a{
+    color: white;
+    text-decoration: none;
+}
+.lowerfoot foot1{
+    margin: 10px 40px;
+    align-items: center;
+}
