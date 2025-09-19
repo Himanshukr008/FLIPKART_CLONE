@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,8 @@ body {
     /* width: 100%; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-sizing: border-box;
+    overflow-x: hidden;
+
 
 }
 
@@ -345,3 +348,4 @@ input {
     align-items: center;
 
 }
+
