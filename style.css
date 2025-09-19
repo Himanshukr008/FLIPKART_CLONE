@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
     /* width: 100%; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-sizing: border-box;
+
 }
 
 .maincontent {
@@ -341,4 +343,5 @@ input {
 .lowerfoot foot1{
     margin: 10px 40px;
     align-items: center;
+
 }
